@@ -1,0 +1,19 @@
+{
+    "name": "email-verifier-legacy",
+    "version": "1.0.0",
+    "description": "Email deliverability verifier using DNS MX and SMTP verification",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "email-validator": "^2.0.4",
+      "express": "^4.18.2"
+    },
+    "devDependencies": {},
+    "engines": {
+      "node": ">=14.0.0"
+    },
+    "author": "Luke Arian",
+    "license": "ISC"
+  }
